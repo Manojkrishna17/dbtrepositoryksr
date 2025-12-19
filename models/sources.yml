@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: data_feed
+    database: dbt_labs
+    schema: raw_schema
+    tables:
+      - name: raw_customer
+      - name: raw_orders
